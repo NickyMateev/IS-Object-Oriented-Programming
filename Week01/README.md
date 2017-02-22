@@ -13,7 +13,11 @@
 
 3) Examples of OOP in real projects
 
-4) Introduction to Struct
+4) Introduction to **struct**
+ * Basic syntax when defining a **struct** 
+ * Creating **objects** of a certain **struct**
+ * Accessing **object members**
+ * Pointers to struct objects
 
 5) Problem solving
 
