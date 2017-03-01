@@ -2,6 +2,7 @@
 #include <cstring>
 using namespace std;
 
+const int PEOPLE_COUNT = 10;
 const int SIZE = 10;
 
 struct Point
@@ -34,9 +35,16 @@ class Person
 
 };
 
+Person::Person()
+{
+  cout << "DEFAULT CONSTRUCTOR" << endl;
+  setName("Stoyan");
+  setAge(21);
+}
 
 Person::Person(char* name, int age)
 {
+  cout << "EXPLICIT CONSTRUCTOR" << endl;
   setName(name);
   setAge(age);
 }
@@ -78,7 +86,15 @@ void Person::setName(char* newName)
 
 int main()
 {
-  Person people[10];
+  Person people[PEOPLE_COUNT];
+
+  for(int i = 0; i < PEOPLE_COUNT; i++)
+  {
+    cout << "Person #" << i << ": " << endl;
+    cout << "\tName: " << people[i].getName() << endl;
+    cout << "\tAge: " << people[i].getAge() << endl;
+  }
+
 
   return 0;
 }
