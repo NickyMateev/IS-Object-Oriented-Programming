@@ -37,14 +37,12 @@ class Person
 
 Person::Person()
 {
-  cout << "DEFAULT CONSTRUCTOR" << endl;
   setName("Stoyan");
   setAge(21);
 }
 
 Person::Person(char* name, int age)
 {
-  cout << "EXPLICIT CONSTRUCTOR" << endl;
   setName(name);
   setAge(age);
 }
