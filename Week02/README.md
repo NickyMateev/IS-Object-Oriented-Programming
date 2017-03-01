@@ -16,6 +16,7 @@
  * <a href="https://isocpp.org/wiki/faq/classes-and-objects">Classes and Objects</a><br/>
 
 4)Дефиниция, достъп до полета и методи, видове методи (константни и статични функции).
+ * <a href="http://www.cprogramming.com/tutorial/statickeyword.html">Static: The Multipurpose Keyword</a><br/>
  * <a href="https://www.tutorialspoint.com/cplusplus/cpp_class_access_modifiers.htm">C++ Class access modifiers</a><br/>
  * <a href="http://www.cplusplus.com/doc/tutorial/constants/">Constants</a><br/>
  * <a href="http://en.cppreference.com/w/cpp/language/static">static members</a><br/>
