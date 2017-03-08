@@ -12,8 +12,7 @@
 * <a href="http://www.cplusplus.com/doc/tutorial/classes/">Classes (I) </a><br/>
 
 3) Инициализиращи списъци
- * <a href="https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm">C++ Classes and Objects</a><br/>
- * <a href="https://isocpp.org/wiki/faq/classes-and-objects">Classes and Objects</a><br/>
+ * <a href="http://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/">When do we use Initializer List in C++?</a><br/>
 
 4) Аргументи по подразбиране
  * <a href="http://www.cplusplus.com/doc/tutorial/functions/">Functions (see the Default values in parameters section)</a><br/>
