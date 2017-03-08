@@ -9,7 +9,7 @@
 * <a href="http://stackoverflow.com/questions/333889/why-have-header-files-and-cpp-files-in-c">Why have header files and .cpp files in C++?</a><br/>
 
 2) Констуктори по подразбиране, с параметри, служебно генерирани
-<a href="http://www.cplusplus.com/doc/tutorial/classes/">Classes (I) </a><br/>
+* <a href="http://www.cplusplus.com/doc/tutorial/classes/">Classes (I) </a><br/>
 
 3) Инициализиращи списъци
  * <a href="https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm">C++ Classes and Objects</a><br/>
