@@ -1,6 +1,6 @@
-﻿# Week02
+﻿# Week03
 
-##Structures and Classes
+## Constructors and Dynamic memory
 
 ### Agenda:
 
