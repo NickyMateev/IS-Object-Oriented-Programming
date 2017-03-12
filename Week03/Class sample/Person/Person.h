@@ -16,7 +16,7 @@ private:
     char* lastName;
     int EGN;
 
-    void mystrcpy(char* dest, char* src);
+    void mystrcpy(char*& dest, char* src);
 public:
     Person();
     Person(char* newFirstName, char* newMiddleName, char* newLastName, int newEGN);

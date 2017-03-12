@@ -4,7 +4,7 @@
 
 #include "Person.h"
 
-void Person::mystrcpy(char *dest, char *src)
+void Person::mystrcpy(char*& dest, char *src)
 {
     int size = strlen(src) + 1;
     dest = new char[size];
