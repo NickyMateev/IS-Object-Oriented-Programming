@@ -1,5 +1,4 @@
-﻿#include "stdafx.h"
-#include "BankAccount.h"
+﻿#include "BankAccount.h"
 
 BankAccount::BankAccount()
 {

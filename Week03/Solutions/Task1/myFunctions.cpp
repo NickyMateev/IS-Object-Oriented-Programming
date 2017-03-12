@@ -1,5 +1,4 @@
-﻿#include "stdafx.h"
-#include "myFunctions.h"
+﻿#include "myFunctions.h"
 
 int mystrlen(char* str)
 {
