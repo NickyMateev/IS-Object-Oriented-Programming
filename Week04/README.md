@@ -1,4 +1,4 @@
-﻿# Week04
+# Week04
 
 ## Copy constructor, copying dynamic memory and the pointer *this*
 
