@@ -1,4 +1,4 @@
-﻿# Week03
+# Week03
 
 ## Constructors and Dynamic memory
 
