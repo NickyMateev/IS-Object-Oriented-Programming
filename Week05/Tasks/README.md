@@ -9,7 +9,13 @@
 
 И следните член функции:
 
-- constructor, copy constructor, operator=, destructor
+- Голямата четворка:
+
+  * constructor (default and explicit)
+  * copy constructor
+  * operator=
+  * destructor
+
 - функция за достъп до i-ти елемент
 - функция за конкатенация
 - функция за сравнение на стрингове
