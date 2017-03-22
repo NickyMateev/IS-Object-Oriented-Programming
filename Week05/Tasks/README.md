@@ -11,14 +11,24 @@
 
 - Голямата четворка:
 
-  * constructor (default and explicit)
-  * copy constructor
-  * operator=
-  * destructor
+  * **constructor (default and explicit)**
+  * **copy constructor**
+  * **operator=**
+  * **destructor**
 
-- функция за достъп до i-ти елемент
+- функция за манипулация на i-ти елемент
+  * **getAt(int index)**
+  * **setAt(int index, char symbol)**
+
 - функция за конкатенация
+  * **concat(String other)**
+  * **concat(char\* other)**
+  
 - функция за сравнение на стрингове
+  * **compare(String other)**
+  * **compare(char\* other)**
+
 - функция, която връща размера на стринга
+  * **getSize()**
 
 **NOTE:** Ако сметнете за добре, може да добавяте допълнителни функции/член данни.
