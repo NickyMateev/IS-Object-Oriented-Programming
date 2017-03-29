@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1490269442 source:c:\users\grade\documents\stringproject\main.cpp
+	"String.h"
+
+1490270284 c:\users\grade\documents\stringproject\string.h
+	<cstring>
+	<iostream>
+
+1490270364 source:c:\users\grade\documents\stringproject\string.cpp
+	"String.h"
+
