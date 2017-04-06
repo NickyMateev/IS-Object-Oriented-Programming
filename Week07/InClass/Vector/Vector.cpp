@@ -12,8 +12,9 @@ void Vector::resize(int newCapacity) {
        temp[i] = this->container[i];
     }
 
-    delete[] container;
-    container = temp;
+    delete[] this->container;
+    this->container = temp;
+    this->capacity = newCapacity;
 }
 
 Vector::Vector() {
