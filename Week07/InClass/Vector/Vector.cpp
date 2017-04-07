@@ -26,8 +26,13 @@ Vector::Vector() {
 Vector::Vector(int *arr, int size) {
     if(size >= DEFAULT_CAP)
     {
-        this->capacity = size * 2;
+      this->capacity = size * 2;
     }
+    else
+    {
+      this->capacity = DEFAULT_CAP;
+    }
+
     this->container = new int[this->capacity];
     for (int i = 0; i < size; ++i) {
        this->container[i] = arr[i];
