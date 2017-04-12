@@ -51,7 +51,7 @@ Vector::Vector() {
     this->capacity = DEFAULT_CAP;
 }
 
-Vector::Vector(int *arr, int size) {
+Vector::Vector(const int* arr, int size) {
     if(size >= DEFAULT_CAP)
     {
         this->capacity = size * 2;
@@ -110,7 +110,7 @@ void Vector::sort(bool increasing) {
 
            }
         }
-        
+
     }
 }
 

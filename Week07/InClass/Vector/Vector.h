@@ -24,7 +24,7 @@ private:
     void swap(int& lhs, int& rhs);
 public:
     Vector();
-    Vector(int* arr, int size);
+    Vector(const int* arr, int size);
     Vector(const Vector& other);
     Vector& operator=(const Vector& other);
     ~Vector();
