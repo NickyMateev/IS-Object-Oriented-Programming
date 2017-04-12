@@ -54,12 +54,12 @@ void Company::resizeEquipment(int newCapacity) {
 
 Company::Company() {
     this->name = NULL;
-    this->employees = NULL;
+    this->employees = new Employee[DEFAULT_CAP];
     this->employeeCount = 0;
-    this->employeeCapacity = 0;
-    this->equipment = NULL;
+    this->employeeCapacity = DEFAULT_CAP;
+    this->equipment = new Equipment[DEFAULT_CAP];
     this->equipmentCount = 0;
-    this->equipmentCapacity = 0;
+    this->equipmentCapacity = DEFAULT_CAP;
 }
 
 Company::Company(const char* name) {

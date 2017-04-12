@@ -7,7 +7,6 @@ int main() {
     int equipmnetCount = 5;
     Equipment* equipment = new Equipment[equipmnetCount];
 
-    cout << "dfads" << endl;
     Company company("TechSoft", employees, employeeCount, equipment, equipmnetCount);
     cout << "Total employee annual salary: $" << company.calculateTotalEmployeeAnnualSalary() << endl;
 
