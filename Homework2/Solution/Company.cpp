@@ -62,7 +62,7 @@ Company::Company() {
     this->equipmentCapacity = 0;
 }
 
-Company::Company(char* name) {
+Company::Company(const char* name) {
     mystrcpy(this->name, name);
     this->employees = new Employee[DEFAULT_CAP];
     this->employeeCount = 0;
@@ -72,7 +72,7 @@ Company::Company(char* name) {
     this->equipmentCapacity = DEFAULT_CAP;
 }
 
-Company::Company(char* name, Employee* employees, int employeeCount, Equipment* equipment, int equipmentCount) {
+Company::Company(const char* name, const Employee* employees, int employeeCount, const Equipment* equipment, int equipmentCount) {
     mystrcpy(this->name, name);
     this->employeeCapacity = employeeCount * 2;
     this->employees = new Employee[this->employeeCapacity];

@@ -22,7 +22,7 @@ Employee::Employee() {
     this->employeePosition = EmployeePosition::PROGRAMMER;
 }
 
-Employee::Employee(char* name, int age, double monthlySalary, EmployeePosition employeePosition) {
+Employee::Employee(const char* name, int age, double monthlySalary, EmployeePosition employeePosition) {
     mystrcpy(this->name, name);
 
     if(age < 0) {
@@ -100,13 +100,13 @@ double Employee::calculateAnnualSalary() const {
 
 void Employee::increaseSalary(int percent) {
     if(percent >= 0) {
-        this->monthlySalary *= ((100 + percent) / 100);
+        this->monthlySalary *= ((100 + percent) / 100.0);
     }
 }
 
 void Employee::decreaseSalary(int percent) {
     if(percent >= 0) {
-        this->monthlySalary *= ((100 - percent) / 100);
+        this->monthlySalary *= ((100 - percent) / 100.0);
     }
 }
 

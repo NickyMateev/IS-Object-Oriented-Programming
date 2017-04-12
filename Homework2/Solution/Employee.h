@@ -18,7 +18,7 @@ private:
     void destroy();
 public:
     Employee();
-    Employee(char* name, int age, double monthlySalary, EmployeePosition employeePosition);
+    Employee(const char* name, int age, double monthlySalary, EmployeePosition employeePosition);
     Employee(const Employee& other);
     Employee&operator=(const Employee& other);
     ~Employee();

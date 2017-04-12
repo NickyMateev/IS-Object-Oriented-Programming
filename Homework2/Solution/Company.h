@@ -29,8 +29,8 @@ private:
     void resizeEquipment(int newCapacity);
 public:
     Company();
-    Company(char* name);
-    Company(char* name, Employee* employees, int employeeCount, Equipment* equipment, int equipmentCount);
+    Company(const char* name);
+    Company(const char* name, const Employee* employees, int employeeCount, const Equipment* equipment, int equipmentCount);
     Company(const Company& other);
     Company& operator=(const Company& other);
     ~Company();
