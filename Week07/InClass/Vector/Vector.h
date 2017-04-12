@@ -1,9 +1,13 @@
 //
-// Created by nickym on 4/5/17.
+// Created by Mateev, Nikolay on 4/12/17.
 //
 
-#ifndef INCLASS_VECTOR_H
-#define INCLASS_VECTOR_H
+#ifndef WEEK07_VECTOR_H
+#define WEEK07_VECTOR_H
+#include <iostream>
+#include <climits>
+#include <cassert>
+using namespace std;
 
 
 class Vector {
@@ -12,7 +16,12 @@ private:
     int size;
     int capacity;
 
+    void copy(const Vector& other);
+    void destroy();
+
     void resize(int newCapacity);
+    void removeAt(int index);
+    void swap(int& lhs, int& rhs);
 public:
     Vector();
     Vector(int* arr, int size);
@@ -20,13 +29,13 @@ public:
     Vector& operator=(const Vector& other);
     ~Vector();
 
-    int getSize();
-    int getCapacity();
+    int getSize() const;
+    int getCapacity() const;
 
-    bool isEmpty();
+    bool isEmpty() const;
 
     void sort(bool increasing);
-    bool isSorted(bool increasing);
+    bool isSorted(bool increasing) const;
 
     int getAt(int index);
     void setAt(int index, int element);
@@ -43,7 +52,13 @@ public:
     friend Vector operator-(const Vector& v1, const Vector& v2);
     friend Vector operator*(const Vector& v1, const Vector& v2);
     friend Vector operator/(const Vector& v1, const Vector& v2);
+
+    const int operator[](int index) const;
+    int& operator[](int index);
+
+    friend ostream& operator<<(ostream& os, const Vector& obj);
+    friend istream& operator>>(istream& is, Vector& obj);
 };
 
 
-#endif //INCLASS_VECTOR_H
+#endif //WEEK07_VECTOR_H
