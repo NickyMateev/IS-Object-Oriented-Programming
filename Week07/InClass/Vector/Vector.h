@@ -8,7 +8,7 @@
 
 class Vector {
 private:
-    int* contaner;
+    int* container;
     int size;
     int capacity;
 
