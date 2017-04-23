@@ -15,7 +15,7 @@ class Vechicle
   void destroy();
 public:
   // Vechicle(); we can either explicitly define a default constructor like this OR define an explicit construcotor with parameters which have default values like what's done on the next line...
-  Vechicle(const char* color = "UnknownColor", const char* model = "UnknownModel", size_t manufactureYear = 0, size_t seats = 0, size_t maxSpeed = 0);
+  Vechicle(const char* color = "DEFAULT_COLOR", const char* model = "DEFAULT_MODEL", size_t manufactureYear = 0, size_t seats = 0, size_t maxSpeed = 0);
   Vechicle(const Vechicle& other);
   Vechicle& operator=(const Vechicle& other);
   ~Vechicle();
