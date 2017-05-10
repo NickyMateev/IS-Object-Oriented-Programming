@@ -18,4 +18,4 @@
 Да се реализират и следните класове:
 
 - Cylinder, наследяващ Circle и добавящ височина;
-- Parallelepiped, наследяващ Rectangle и добавящ височина.
+- Parallelepiped, наследяващ Rectangle и добавящ дължина.
