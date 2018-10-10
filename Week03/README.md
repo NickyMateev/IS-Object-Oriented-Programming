@@ -1,21 +1,15 @@
-# Week03
+# Dynamic Memory and Classes
 
-## Constructors and Dynamic memory
+## Materials:
 
-### Agenda:
+ * [Dynamic Memory][1]
+ * [Pointers and Dynamic Memory in C++ (Memory Management) [Video]][2]
+ * [Great explanation of the difference between Stack and Heap][3]
+ * [C++ Class Constructor and Destructor][4]
+ * [C++ Overloading (Operator and Function)][5]
 
-1) Header и cpp файлове
-* <a href="http://stackoverflow.com/questions/9579930/separating-class-code-into-a-header-and-cpp-file">Separating class code into a header and cpp file</a><br/>
-* <a href="http://stackoverflow.com/questions/333889/why-have-header-files-and-cpp-files-in-c">Why have header files and .cpp files in C++?</a><br/>
-
-2) Констуктори по подразбиране, с параметри, служебно генерирани
-* <a href="http://www.cplusplus.com/doc/tutorial/classes/">Classes (I) </a><br/>
-
-3) Инициализиращи списъци
- * <a href="http://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/">When do we use Initializer List in C++?</a><br/>
-
-4) Аргументи по подразбиране
- * <a href="http://www.cplusplus.com/doc/tutorial/functions/">Functions (see the Default values in parameters section)</a><br/>
-
-5) Заделяне и освобождаване на памет. Изтичане на памет
-* <a href="http://www.cplusplus.com/doc/tutorial/dynamic/">C++: Dynamic memory</a><br/>
+ [1]: http://www.cplusplus.com/doc/tutorial/dynamic/
+ [2]: https://www.youtube.com/watch?v=CSVRA4_xOkw
+ [3]: https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap
+ [4]: https://www.tutorialspoint.com/cplusplus/cpp_constructor_destructor.htm
+ [5]: https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm

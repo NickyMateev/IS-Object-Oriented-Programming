@@ -1,37 +1,33 @@
-# Задача - имплементация на класа String
+Трябва да се реализира class String, в когото трябва да бъдат реализирани следните методи:
 
-Задачата ви е да напишете ваша имплементация на string класа. Засега ще използваме всички наличнии знания, които имаме до момента, но с времето ще усъвършенстваме този клас.
+	class String
+	{
+		private:
+			char* data;
+		public:
+			String();
+			String(char* data);
+			String& operator=(const String);
+			~String();
+	 
+			char at(size_t idx);//връща елемент на позиция
 
-Трябва да имате следните базови член данни:
+			size_t size() const;
 
-- **data** - char*
-- **size** - цяло число
 
-И следните член функции:
+	 		char& operator[](size_t idx);
+	 		const char operator[](size_t idx) const;
 
-- **Голямата четворка**:
+			String& operator+=(const String& rhs);
+			bool operator<(const String& rhs);
+			bool operator>(const String& rhs);
+			bool operator<=(const String& rhs);
+			bool operator>=(const String& rhs);
 
-  * **constructor (default and explicit)**
-  * **copy constructor**
-  * **operator=**
-  * **destructor**
+			bool operator==(const String& rhs);
+			bool operator!=(const String& rhs);
 
-- функция за манипулация на i-ти елемент
-  * **getAt(int index)**
-  * **setAt(int index, char symbol)**
-
-- функция за конкатенация
-  * **concat(String other)**
-  * **concat(char\* other)**
-  
-- функция за сравнение на стрингове
-  * **compare(String other)**
-  * **compare(char\* other)**
-
-- функция, която връща размера на стринга
-  * **getSize()**
- 
- - функция, която принтира стринга:
-  * **print()**
- 
- **NOTE:** Ако сметнете за добре, може да добавяте допълнителни функции/член данни.
+			friend String operator+ (String lhs, const String& rhs);
+			friend ostream& operator<<(ostream& os, const String& obj);
+			friend istream& operator>>(istream& is, String& obj);
+	}

@@ -1,25 +1,26 @@
-Да се реализира следния клас:
+Да се реализира йерархията от класове, която е описана:
 
-	class Mammal
-	{
-	protected:
-		bool hasFur;
-		int numberOfLegs;
-		int age;
-	public:
-		Mammal();
-		Mammal(bool hasFur, unsigned numberOfLegs, unsigned age);
+###### Company:
+- name
+- budget
+- departments
 
-		//declaration of getters and setters here
+###### Departments:
+- name
+- budget
+- employees
 
-		virtual char* getSpeciesName() const; //returns the name of the class
-		virtual bool eats(Food food) const;//Food is an enum
-		virtual Color furColor() const;//Color is an enum
-		virtual bool canJump() const;
-		virtual bool canSwim() const;
-		virtual bool isSameSpeciesLike(Mammal* otherMammal);
-	};
+###### Employee:
+- name
+- experience
+- age
+- startWorkingDate
+	- startWorkingDate
 
+Да се реализира сортировка, която приема като параметър списък от Employee и компаратор. Трябва да се реализира по един компаратор за всяко едно от полетата.
 
+```
+using Comparator = bool (*)(Employee, Employee);
 
-Да се реализират класове Hippo, Dog, Kangaroo, Human, които наследяват Mammal.
+void sort(Employee* emps, Comparator comaprator);
+```

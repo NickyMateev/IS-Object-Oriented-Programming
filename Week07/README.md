@@ -1,17 +1,13 @@
-# Week07
+# Week 07 - Review
 
-## Overator overloading and friend functions
-
-### Agenda:
-
-1) Operator overloading
-* <a href="http://en.cppreference.com/w/cpp/language/operators">Operator overloading C++</a>
-* <a href="https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm">C++ Overloading</a>
-
-2) Friend functions
-* <a href="https://www.programiz.com/cpp-programming/friend-function-class">C++ friend Function and friend Classes</a>
-* <a href="http://en.cppreference.com/w/cpp/language/friend">Friend declaration C++</a>
-* <a href="https://www.tutorialspoint.com/cplusplus/cpp_friend_functions.htm">C++ Friend Functions</a>
-
-3) Vector explanation & implementation
-* <a href="http://www.cplusplus.com/reference/vector/vector/">Just for reference: std::vector</a>
+At this point of the semester you should feel comfortable with the following topics:
+* Working with files (writing and reading)
+* Allocating and deleting **dynamic memory**
+* Declaring and implementing **structs** and **classes**
+* For classes you should be capable of writing:
+    * **Constructors**
+    * **Copy Constructors**
+    * **Getter** and **setter** functions
+    * **operators** (arithmetic operators, stream operators, non-arithmetic operators)
+* **Templates**
+* Working with **header** (*.h*) and **source** files (*.cpp*)
