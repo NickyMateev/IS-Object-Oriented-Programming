@@ -1,4 +1,4 @@
-# Object Oriented Programming (C++) 2017-2018
+# Object Oriented Programming (C++) 2018
 
 All the materials you'll need for the course Object Oriented Programming with C++ can be found here.
 
